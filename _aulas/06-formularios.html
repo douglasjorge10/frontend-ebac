@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>HTML - Formulário Fale Conosco</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="../_css/style.css">
+		<link rel="stylesheet" href="../_css/form.css">
+	</head>
+	<body>
+
+		<header class="cabecalho"> 
+			<h2>Curso Front-end</h2>
+			<nav>
+				<ul class="navMenu">
+					<li><a href="../index.html">Home</a></li>
+					<li><a href="./05-sobre.html">Sobre</a></li>
+					<li><a href="./06-formularios.html">Contato</a></li>
+				</ul>
+			</nav>
+		</header>
+		<section class="corpo">
+			
+			<article class="articleForm">
+				<h1>Contato</h1>
+				<p>Preencha os campos abaixo</p>
+
+				<form method="post">
+
+					<fieldset id="nomeEmail">
+
+						<label for="nome">Nome</label>
+						<input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+						
+						<label for="email">E-mail</label>
+						<input type="email" name="email" id="email" placeholder="Digite seu email">
+					</fieldset>
+
+					<fieldset id="setores">
+
+							<h3>Para qual dos setores é o motivo do contato?</h3>
+							<label for="setor">Analista de sistema</label>
+							<input type="radio" name="setor" value="anaSistema">
+							 <label for="setor">Engenharia de software</label>
+							<input type="radio" name="setor" value="engenharia"> 
+							<label for="setor">Analista de dados</label>
+							<input type="radio" name="setor" value="anaDados"> 
+							<label for="setor">Desenvolvimento Web</label>
+							<input type="radio" name="setor" value="devWeb" checked> 
+						
+					</fieldset>
+
+					<fieldset id="copetencia">
+						
+							<h3>Qual das competencias é desejavel para o serviço?</h3>
+							<input type="checkbox" name="competencia" value="front" checked>Front-end 
+							<input type="checkbox" name="competencia" value="back">Back-end
+							<input type="checkbox" name="competencia" value="full">Full-stack 
+							<input type="checkbox" name="competencia" value="dados">Data-Science  
+						
+					</fieldset>
+
+					<fieldset id="contact">
+						<h3>Qual sera o modo de contratação?</h3>
+						<select>
+							<option value="free" selected>Freelancer</option>
+							<option value="periodo">Contrato por periodo</option>
+							<option value="fixo" >Contratação fixa</option>
+						</select>
+					</fieldset>
+
+					<fieldset id="menssagem">
+						<label for="mensagem">Mensagem</label><br>
+						<textarea name="mensagem" id="mensagem" rows="5"></textarea>
+					</fieldset>
+
+					<div id="btn">
+						<input type="submit" >
+					</div>
+				</form>
+			</article>
+		</section>
+
+		<footer class="rodape">
+			<p>Desenvolvido por Douglas</p>
+		</footer>
+		
+	</body>
+</html>

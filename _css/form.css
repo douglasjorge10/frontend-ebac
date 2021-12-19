@@ -1,0 +1,114 @@
+/* estilos  globais */
+form, input, .btn{
+    display: block;
+}
+form h3{
+    width: 100%;
+}
+label{
+    margin-bottom: 20px;
+    width: 60%;
+}
+p:nth-last-child(2){
+    font-size: 1.5em;
+}
+form{
+    width: 50%;
+    margin: 0 auto;
+}
+fieldset{
+    margin: 50px 0;
+    padding: 3%;
+}
+
+/* estilo do container pai do form - article */
+.articleForm{
+    width: 100%;
+}
+.articleForm h1{
+    font-size: 2.5em;
+}
+.articleForm h1, p{
+    margin-top: 40px;
+    text-align: center;
+}
+
+/* estilo do fieldset nome e email */
+#nomeEmail input {
+    margin: 1% 0 5%;
+    height: 2em;
+    width: 60%;
+}
+/* estilo do fieldset setores */
+#setores{
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 1em;
+}
+#setores input{
+    margin: 0 2% 2%;
+    width: 5%; 
+}
+/* estilo do fieldset contrato */
+#contact{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* estilo do fieldset menssagem */
+#menssagem{
+    display: flex;
+    flex-wrap: wrap;
+}
+#menssagem textarea{
+    display: block;
+    width: 100%;
+    height: 20vh;
+}
+/* estilo do fieldset copetencias */
+#copetencia{
+    display: flex;
+    flex-wrap: wrap;
+}
+#copetencia input{
+    margin: 0 1% 0 4%;
+    height: 2vh;
+}
+
+[type="submit"]{
+    margin: 20px auto;
+    width: 26%;
+    height: 6vh; 
+    
+}
+/* responsividade tablet */
+@media (max-width:769px){
+    
+   .corpo form{
+       margin: -50px auto;
+       padding: 30px;
+       width: 100%;
+   }
+}
+   /* responsividade mobile */
+   @media(max-width:427px){
+       .articleForm h1 + p{
+        margin: 4px;
+        font-size: 14pt;
+       }
+       form h2, h3{
+        font-size: 12pt;
+        margin-bottom: 10px;
+       }
+    #setores h3 {
+        margin-bottom: 10px;
+    }
+    #setores input{
+        margin-left: 20px;
+        
+    }
+    #setores label {
+        margin-left: 10px;
+        width: 60%;
+    }
+    
+}
