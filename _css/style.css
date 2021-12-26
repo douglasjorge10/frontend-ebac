@@ -49,7 +49,7 @@
   /* Estilo do conteudo central section */
   .perfil {
     width: 100%;
-    height: 74vh;
+  
     text-align: center;
   }
   .perfil h1{
@@ -60,18 +60,21 @@
     margin-top: -20px;
     margin-left: 70px;
   }
-  .descri em, p.descri{
-    margin-top: 30px ;
-    font-size: 15pt;
+  p.descri{
+    margin: 10px auto;
+    width: 70%;
+    text-align: center;
+  }
+  .descri em{
+    width: 100%;
+    font-size: 22pt;
   }
   
  /* estilo do Roda pé footer */
   .rodape{
-    font-size: 14pt;
+    display: inline-block;
     text-align: center;
     width: 100%;
-    height: 12vh;
-    line-height: 4.5em;
     background-color: rgba(0, 0, 0, .9);
   }
    /* responsividade para tablet */
@@ -85,7 +88,21 @@
   .perfil{
     height: 95vh;
   }
+  p.descri{
+    margin: 10px auto;
+    width: 70%;
+    text-align: center;
+  }
+  .descri em{
+    width: 100%;
+    font-size: 18pt;
+  }
  }
+ /* estilo roda pe footer */
+ .rodape p{
+   font-size: 15pt;
+  line-height: 3.9rem;
+}
   /* responsividade para mobile */
 
  @media(max-width: 425px){
@@ -133,13 +150,16 @@
     position: relative;
     font-size: 9pt;
   }
+  p.descri{
+    margin: 10px auto;
+    width: 70%;
+    text-align: center;
+  }
   .descri em{
     width: 100%;
-    position: absolute;
-    margin: -20px -190px;
     font-size: 12pt;
   }
-   
+ 
    /* Estilo do menu de navegação lateral aside */
   .asideLeft{
     display: flex;
@@ -162,7 +182,11 @@
    width: 100%;
    padding: 5px;
  }
-
+ /* estilo roda pe footer */
+ .rodape p{
+  font-size: 13pt;
+  line-height: 3.9em;
+}
  }
 
 
