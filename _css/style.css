@@ -159,7 +159,17 @@
     width: 100%;
     font-size: 12pt;
   }
- 
+  nav.aulas, .nav-redes{
+    text-align: center;
+  }
+  li.cardLink{
+    width: 50%;
+    margin: auto;
+  }
+  ul.redes {
+    width: 25%;
+    margin: auto;
+  }
    /* Estilo do menu de navegação lateral aside */
   .asideLeft{
     display: flex;
