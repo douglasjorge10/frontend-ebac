@@ -55,6 +55,9 @@
   .perfil h1{
     font-size: 25pt;
   }
+  .perfil img{
+    border-radius: 40%;
+  }
   .perfil p{
     font-size: 11pt;
     margin-top: -20px;
