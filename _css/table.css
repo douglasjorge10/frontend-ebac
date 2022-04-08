@@ -1,79 +1,89 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-.cabecalho h2{
+
+.cabecalho h2 {
     line-height: 2.5em;
-   }
-.container-table{
+}
+
+.container-table {
     margin: 50px auto;
 }
+
 .container-table h3 {
     display: block;
     width: 70%;
     margin: 0 auto;
 
 }
+
 table {
     width: 70%;
-    margin: 0 auto;  
+    margin: 0 auto;
 }
-table tr{
+
+table tr {
     line-height: 3rem;
 }
-table thead th{
+
+table thead th {
     line-height: 4.2rem;
     color: #fff;
-    background-color:#303030 ;
+    background-color: #303030;
     text-align: center;
 }
+
 table thead tr td {
-    text-align:  center;
+    text-align: center;
 }
+
 /* 1ª td da 2 linha do thead "PRODUTOS" */
-thead tr td:nth-of-type(1){
+thead tr td:nth-of-type(1) {
     font-size: 1.3rem;
-    text-transform:uppercase;
+    text-transform: uppercase;
 }
+
 /* cor cinza para a segunda linha thead */
-thead tr:nth-of-type(2){
+thead tr:nth-of-type(2) {
     background-color: rgba(0, 0, 0, 0.2);
 }
+
 /* Estillo para centralizar o texto da primeira td do thead e tfoot */
-table thead th:nth-of-type(1), tfoot td:nth-of-type(1) {
+table thead th:nth-of-type(1),
+tfoot td:nth-of-type(1) {
     text-align: center;
     font-size: 1.5em;
 }
+
 /* estilo para dar cor as linhas pares da tabela */
-table tbody tr:nth-of-type(even){
+table tbody tr:nth-of-type(even) {
     color: #fff;
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-table tbody tr:hover{
+table tbody tr:hover {
     background-color: rgba(0, 0, 0, 0.3)
 }
 
 /* estilo para mudar a cor ao passar o mouse de todas a lnha impar ta tabela */
-table tbody tr:hover:nth-of-type(odd){
+table tbody tr:hover:nth-of-type(odd) {
     background-color: #000;
 }
 
 /* Estilo para  manter o texto alinhado a esquerda na primeira td de cada linha do tbody */
-table tbody td:nth-of-type(1){
+table tbody td:nth-of-type(1) {
     text-align: left;
     text-transform: uppercase;
     letter-spacing: 0.2rem;
 }
 
-table tbody td{
+table tbody td {
     text-align: center;
 }
 
-table tfoot{
+table tfoot {
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.1);   
+    background-color: rgba(0, 0, 0, 0.1);
 }
-
-

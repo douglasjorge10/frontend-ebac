@@ -1,31 +1,39 @@
-*{
+* {
     box-sizing: border-box;
 }
-section.corp h1, h4, h3{
+
+section.corp h1,
+h4,
+h3 {
     display: block;
     width: 100%;
     text-align: center;
     color: #000;
 }
-div.corp{
+
+div.corp {
     width: 80%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-div.corp dt{
+
+div.corp dt {
     margin: 10px 0;
 }
-div.corp ol li{
+
+div.corp ol li {
     list-style: inherit;
 }
-div.corp ul li{
+
+div.corp ul li {
     list-style: disc;
 }
+
 /* responsividade para mobile */
-@media(max-width:800px){
-    body{
+@media(max-width:800px) {
+    body {
         display: none;
     }
 }

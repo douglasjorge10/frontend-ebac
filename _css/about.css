@@ -1,11 +1,13 @@
-.cabecalho{
+.cabecalho {
     margin-bottom: 15px;
 }
-.sobre{
+
+.sobre {
     width: 80%;
     margin: 0 auto;
 }
-.corpo{
+
+.corpo {
     margin-bottom: 10px;
     height: auto;
 }
